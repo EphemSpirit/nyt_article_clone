@@ -1,0 +1,179 @@
+/* HEADER */
+
+/* .header {
+  position: fixed;
+  width: 100%;
+} */
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #666;
+  padding-top: 5px;
+  width: 100%;
+}
+
+.box-one {
+  display: flex;
+  justify-content: space-around;
+  /* width: 20%; */
+}
+
+.nav-button {
+  height: 15px;
+  width: 15px;
+}
+
+.box-one > div {
+  padding-right: 10px;
+}
+
+.box-one:first-child {
+  margin-left: 15px;
+}
+
+.box-one:last-child {
+  padding-right: 0;
+}
+
+.box-two > div {
+  margin: 0 5px;
+}
+
+.box-two {
+  display: flex;
+  width: 10%;
+  justify-content: space-around;
+}
+
+.topic {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.title-logo { bottom: 10px; }
+
+.nav-login,
+.nav-subscribe {
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+  vertical-align: middle;
+  font-size: 11px;
+  font-weight: 700;
+  height: 30px;
+}
+
+.nav-login { width: 60px; }
+
+.nav-subscribe { width: 80px; }
+
+/* MAIN CONTENT */
+
+.main-body {
+  display: grid;
+  grid-template-columns: 350px auto 350px;
+  border-bottom: 2px double #666;
+}
+
+.article-title {
+  color: #121212;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.text {
+  grid-column-start: 2;
+/*   word-break: break-all; */
+  word-wrap: break-word;
+}
+
+/* LINK DIVIDER */
+
+.banner { margin-bottom: 50px; }
+
+.nyt {
+  float: left;
+}
+
+.home-link {
+  float: right;
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #666;
+}
+
+.brand {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+/* FOOTER LINKS */
+
+.other-links {
+  display: flex;
+  justify-content: space-around;
+  height: 350px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.other-links > section {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.section-link {
+  font-size: .75em;
+  margin-bottom: 5px;
+}
+
+.adder-link {
+  font-size: .66em;
+  margin-bottom: 5px;
+}
+
+.end {
+  border-bottom: 2px solid #666;
+  padding-bottom: 10px;
+}
+
+.start {
+  padding-top: 10px;
+}
+
+.subscribe {
+  border-left: 2px solid #666;
+  padding-left: 5px;
+}
+
+.subscribe * {
+  padding-left: 5px;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: space-around;
+  font-size: .75em;
+  color: #666;
+}
